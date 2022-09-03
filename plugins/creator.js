@@ -33,7 +33,7 @@ let handler = async(m, { conn }) => {
         externalAdReply: { //showAdAttribution: true,
         	sourceUrl: 'https://instagram.com/fitra_wahyudi_/',
             title: 'Follow IG Ownerku yah kk',
-            body: 'Follow Tiktok Pacar Saya Bang',
+            body: 'Follow Ya kk',
           thumbnail: await (await fetch(pp)).buffer()
         }
      }

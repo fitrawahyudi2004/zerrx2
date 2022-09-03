@@ -9,7 +9,7 @@ let fetch = require('node-fetch')
          let _gc2 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc2) 
          let _gc3 = 'https://chat.whatsapp.com/' + await conn.groupInviteCode(gc3) 
          let caption = ` 
- *Join juga group official Cute Bot!* 
+ *Join juga group Zerrx Bot* 
  Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
@@ -24,9 +24,9 @@ let fetch = require('node-fetch')
  `.trim() 
          await conn.reply(m.chat, caption, m, { contextInfo: { 
              externalAdReply: { 
-               sourceUrl: 'https://youtu.be/-tKVN2mAKRI', 
+               sourceUrl: 'https://instagram.com/fitra_wahyudi_/', 
                title: 'Official group', 
-               body: 'Haruno Bot', 
+               body: 'Zerrx', 
                thumbnail: pp 
              } 
          }}) 
@@ -36,17 +36,17 @@ let fetch = require('node-fetch')
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/Kyz397uqvJZ5AvX7I4BSID
+https://chat.whatsapp.com/CBrG0HzzpJ56mN0j4dfAqL
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
     quoted: m,
     contextInfo: { forwardingScore: 99999, isForwarded: true,
         externalAdReply: {
-        	sourceUrl: 'https://vt.tiktok.com/ZSRRmS8vh/',
+        	sourceUrl: 'https://instagram.com/fitra_wahyudi_/',
             title: 'Gruop Official',
-            body: '© Cute IQ-MD By Ziv San',
-          thumbnail: await (await fetch('https://telegra.ph/file/f05029f17de62fb420459.jpg')).buffer()
+            body: '© Zerrx Bot By F.W.D',
+          thumbnail: await (await fetch('https://i.postimg.cc/0yw4rS7y/ss.png')).buffer()
         }
      }
     })

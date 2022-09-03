@@ -105,7 +105,7 @@ const listMessage = {
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn)
-          throw false
+          throw true
         }
       }
       chat.delete = !isEnable
@@ -236,7 +236,7 @@ const listMessage = {
       isAll = true
       if (!isOwner) {
         global.dfail('owner', m, conn)
-        throw false
+        throw true
       }
       opts['autoread'] = isEnable
       break
@@ -307,7 +307,7 @@ const listMessage = {
   conn.send2Button(m.chat,`🗂️ *Type:* ${type} 
 📊 *Status:* Success ✅
 🎚️ *Options:* ${isEnable ? 'Enable' : 'Disable'}
-📣 *For:* ${isAll ? 'This Bot' : isUser ? '' : 'This Chats'}`, wm, `⋮☰ Menu`, '.menu', `${isEnable ? 'Off' : 'On'} ${type}`, `.${isEnable ? 'Off' : 'On'} ${type}` ,{ key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `Colour Your Life`, itemCount: 99999, thumbnail: await (await fetch('https://telegra.ph/file/09f6fd389fef97938b40b.jpg')).buffer(),}}})
+📣 *For:* ${isAll ? 'This Bot' : isUser ? '' : 'This Chats'}`, wm, `Menu`, '.menu', `${isEnable ? 'Off' : 'On'} ${type}`, `.${isEnable ? 'Off' : 'On'} ${type}` ,{ key: { fromMe: false, remoteJid: 'status@broadcast', participant: '0@s.whatsapp.net' }, message: { orderMessage: { message: `Colour Your Life`, itemCount: 99999, thumbnail: await (await fetch('https://i.postimg.cc/0yw4rS7y/ss.png')).buffer(),}}})
 }
 handler.help = ['on', 'off'].map(v => v + ' <opsi>')
 handler.tags = ['group', 'owner']

@@ -11,10 +11,10 @@ key: {
 				"product": {
 					"productImage":{
 						"mimetype": "image/jpeg",
-						"jpegThumbnail": await (await fetch('https://telegra.ph/file/dd124552c49cb0a55bb83.jpg')).buffer(), //Gambarnye
+						"jpegThumbnail": await (await fetch('https://i.postimg.cc/0yw4rS7y/ss.png')).buffer(), //Gambarnye
 					},
 					"title": `Hai ${conn.getName(m.sender)}`, //Kasih namalu 
-					"description": `HAORI - BOTZ MADE BY ZIVFURR ❤️`, 
+					"description": `ZERRX - BOTZ MADE BY FWD ❤️`, 
 					"currencyCode": "Rp",
 					"priceAmount1000": "500000",
 					"retailerId": `ppk`,

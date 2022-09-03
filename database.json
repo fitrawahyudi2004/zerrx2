@@ -12754,7 +12754,7 @@
       "joincount": 1,
       "healt": 100,
       "level": 2,
-      "exp": 11584,
+      "exp": 12104,
       "limit": 10,
       "lastseen": 0,
       "usebot": 0,
@@ -12856,7 +12856,7 @@
       "joincount": 1,
       "healt": 100,
       "level": 1,
-      "exp": 106,
+      "exp": 204,
       "limit": 10,
       "lastseen": 0,
       "usebot": 0,
@@ -13974,20 +13974,47 @@
       "simi": false,
       "clear": false,
       "clearTime": 0
+    },
+    "120363044108094026@g.us": {
+      "name": {},
+      "closeGroup": false,
+      "add": 0,
+      "isBanned": false,
+      "welcome": true,
+      "detect": true,
+      "sWelcome": "",
+      "sBye": "",
+      "sPromote": "",
+      "sDemote": "",
+      "desc": true,
+      "descUpdate": true,
+      "stiker": false,
+      "delete": false,
+      "antiLink": true,
+      "expired": 0,
+      "antiBadword": true,
+      "antispam": true,
+      "antitroli": false,
+      "antivirtex": false,
+      "viewonce": true,
+      "nsfw": false,
+      "simi": false,
+      "clear": false,
+      "clearTime": 0
     }
   },
   "stats": {
     "menu.js": {
-      "total": 117,
-      "success": 116,
-      "last": 1662122599462,
-      "lastSuccess": 1662122599462
+      "total": 121,
+      "success": 120,
+      "last": 1662216978360,
+      "lastSuccess": 1662216978360
     },
     "simmenu.js": {
-      "total": 29,
-      "success": 29,
-      "last": 1662122457852,
-      "lastSuccess": 1662122457852
+      "total": 30,
+      "success": 30,
+      "last": 1662215623984,
+      "lastSuccess": 1662215623984
     },
     "g-add.js": {
       "total": 2,
@@ -14002,10 +14029,10 @@
       "lastSuccess": 1659186671377
     },
     "creator.js": {
-      "total": 12,
-      "success": 12,
-      "last": 1662122559845,
-      "lastSuccess": 1662122559845
+      "total": 13,
+      "success": 13,
+      "last": 1662216161552,
+      "lastSuccess": 1662216161552
     },
     "tqto.js": {
       "total": 3,
@@ -14182,10 +14209,10 @@
       "lastSuccess": 1659184242736
     },
     "play.js": {
-      "total": 7,
-      "success": 7,
-      "last": 1662039259071,
-      "lastSuccess": 1662039259071
+      "total": 8,
+      "success": 8,
+      "last": 1662218829106,
+      "lastSuccess": 1662218829106
     },
     "yta.js": {
       "total": 11,
@@ -14206,10 +14233,10 @@
       "lastSuccess": 0
     },
     "_autoreact.js": {
-      "total": 20,
-      "success": 20,
-      "last": 1659186700479,
-      "lastSuccess": 1659186700479
+      "total": 21,
+      "success": 21,
+      "last": 1662216144781,
+      "lastSuccess": 1662216144781
     },
     "report.js": {
       "total": 3,
@@ -14248,10 +14275,10 @@
       "lastSuccess": 1659184896991
     },
     "gcbot.js": {
-      "total": 3,
-      "success": 3,
-      "last": 1659185987621,
-      "lastSuccess": 1659185987621
+      "total": 4,
+      "success": 4,
+      "last": 1662215758869,
+      "lastSuccess": 1662215758869
     },
     "dl-mediafire.js": {
       "total": 5,
@@ -14284,10 +14311,10 @@
       "lastSuccess": 1659186152912
     },
     "botstats.js": {
-      "total": 2,
-      "success": 2,
-      "last": 1659186201795,
-      "lastSuccess": 1659186201795
+      "total": 3,
+      "success": 3,
+      "last": 1662215728431,
+      "lastSuccess": 1662215728431
     },
     "anonymous_chat.js": {
       "total": 2,
@@ -14350,10 +14377,10 @@
       "lastSuccess": 1662048119906
     },
     "enable.js": {
-      "total": 5,
-      "success": 4,
-      "last": 1662049446585,
-      "lastSuccess": 1662049412814
+      "total": 12,
+      "success": 11,
+      "last": 1662217013335,
+      "lastSuccess": 1662217013335
     },
     "galau.js": {
       "total": 3,
@@ -14396,6 +14423,30 @@
       "success": 2,
       "last": 1662122652569,
       "lastSuccess": 1662122652569
+    },
+    "tictactoe.js": {
+      "total": 6,
+      "success": 6,
+      "last": 1662218384549,
+      "lastSuccess": 1662218384549
+    },
+    "tts.js": {
+      "total": 2,
+      "success": 2,
+      "last": 1662218711098,
+      "lastSuccess": 1662218711098
+    },
+    "tebakgambar.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1662218768205,
+      "lastSuccess": 0
+    },
+    "o-broadcast.js": {
+      "total": 2,
+      "success": 0,
+      "last": 1662218777170,
+      "lastSuccess": 0
     }
   },
   "msgs": {},
@@ -14423,7 +14474,7 @@
       "backupDB": 0,
       "groupOnly": false,
       "jadibot": false,
-      "status": 1662122866049,
+      "status": 1662218830801,
       "epe": true,
       "game": true
     }

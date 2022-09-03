@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
      * silahkan tambahkan sendiri playlistnya
      * ['id', 'id', 'dan seterusnya']
      */
-    let playlist = ['37i9dQZF1DXcBWIGoYBM5M']
+    let playlist = ['3AaKHE9ZMMEdyRadsg8rcy']
     let res = await fetch(API('amel', '/tebaklagu', { id: conn.pickRandom(playlist) }, 'apikey'))
     if (!res.ok) throw res.status
     let json = await res.json()
@@ -21,7 +21,7 @@ Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik *${usedPrefix}cek* untuk bantuan
 Bonus: ${poin} XP`.trim()
     conn.tebaklagu[id] = [
-        await conn.sendButton(m.chat, caption, '© fwd', 'Bantuan', `.cek`, m),
+        await conn.sendButton(m.chat, caption, '© stikerin', 'Bantuan', `.cek`, m),
         json, poin,
         setTimeout(() => {
             if (conn.tebaklagu[id]) conn.sendButton(m.chat, `Waktu habis!\nJawabannya adalah *${json.judul}*`, '© fwd', 'Tebak Lagu', `.tebaklagu`, conn.tebaklagu[id][0])
@@ -34,6 +34,6 @@ handler.help = ['tebaklagu']
 handler.tags = ['game']
 handler.command = /^tebaklagu$/i
 
-
+handler.game = true
 
 module.exports = handler
